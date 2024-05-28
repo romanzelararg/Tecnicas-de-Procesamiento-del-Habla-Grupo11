@@ -11,3 +11,12 @@ Análisis de Sentimientos de Texto de un libro "24 horas en la vida de una mujer
     * *Construcción del Modelo de Red Neuronal*: Se divide el conjunto de datos en entrenamiento y prueba, se normalizan los datos y se define la arquitectura del modelo de red neuronal para clasificación binaria.
     * *Entrenamiento y Evaluación*: Se entrena el modelo con los datos normalizados y se evalúa su precisión. Se muestra la matriz de confusión y la curva ROC para analizar el rendimiento del modelo.
     * *Ajuste de Hiperparámetros*: Se ajustan hiperparámetros y se añade Dropout al modelo para mejorar su rendimiento. Se entrena nuevamente y se evalúa la precisión.
+
+Colaboradores:
+
+    Hanun Romina
+    Kanneman Samuel
+    Zelarayán Román
+    Mansilla Leonardo Matias
+    Lucero Carla
+    Juchniewicz Federico
