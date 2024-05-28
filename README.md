@@ -20,9 +20,9 @@ Análisis de Sentimientos de Texto de un libro "24 horas en la vida de una mujer
     * Evaluación del Modelo y Ajuste de Hiperparámetros: Un cuarto miembro del equipo podría encargarse de la evaluación del modelo y del ajuste de hiperparámetros para mejorar su rendimiento.
       
 Colaboradores:
-    Hanun Romina
-    Kanneman Samuel
-    Zelarayán Román
-    Mansilla Leonardo Matias
-    Lucero Carla
-    Juchniewicz Federico
+    Hanun Romina.
+    Kanneman Samuel.
+    Zelarayán Román.
+    Mansilla Leonardo Matias.
+    Lucero Carla.
+    Juchniewicz Federico.
