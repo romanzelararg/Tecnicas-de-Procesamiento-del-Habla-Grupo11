@@ -1,1 +1,1 @@
-# T-cnicas-de-Procesamiento-del-Habla_-Grupo11
+# Tecnicas-de-Procesamiento-del-Habla_-Grupo11
