@@ -34,9 +34,9 @@
 - **Impacto en la solución propuesta** :
   * En este caso, el procesamiento de habla se utiliza para preparar los datos de texto para su uso en un modelo de clasificación de sentimientos. Esto puede ayudar a comprender las intenciones de los clientes, extraer información valiosa de datos no estructurados, y mejorar el rendimiento general del modelo.
 
-- **Avances y posible división de trabajo de procesamiento del habla entre integrantes** : La división del trabajo podría ser la siguiente:
-    * Preprocesamiento de texto: Un miembro del equipo podría encargarse de la limpieza y tokenización del texto.
-    * Lematización y Vectorización: Otro miembro del equipo podría encargarse de la lematización de los tokens y de su vectorización.
-    * Construcción y Entrenamiento del Modelo: Un tercer miembro del equipo podría encargarse de la construcción del modelo de red neuronal y de su entrenamiento.
-    * Evaluación del Modelo y Ajuste de Hiperparámetros: Un cuarto miembro del equipo podría encargarse de la evaluación del modelo y del ajuste de hiperparámetros para mejorar su rendimiento.
+- **Avances y posible división de trabajo de procesamiento del habla entre integrantes** :
+    * Preprocesamiento de texto: Un miembro del equipo se encarga de la limpieza y tokenización del texto.
+    * Lematización y Vectorización: Otro miembro del equipo se encarga de la lematización de los tokens y de su vectorización.
+    * Construcción y Entrenamiento del Modelo: Un tercer miembro del equipo se encarga de la construcción del modelo de red neuronal y de su entrenamiento.
+    * Evaluación del Modelo y Ajuste de Hiperparámetros: Un cuarto miembro del equipo se encarga de la evaluación del modelo y del ajuste de hiperparámetros para mejorar su rendimiento.
 
