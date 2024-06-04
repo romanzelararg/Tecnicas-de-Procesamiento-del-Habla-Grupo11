@@ -40,3 +40,23 @@
     * Construcción y Entrenamiento del Modelo: Un tercer miembro del equipo se encarga de la construcción del modelo de red neuronal y de su entrenamiento.
     * Evaluación del Modelo y Ajuste de Hiperparámetros: Un cuarto miembro del equipo se encarga de la evaluación del modelo y del ajuste de hiperparámetros para mejorar su rendimiento.
 
+### El cuaderno "Proc_Habla_RN.ipynb" se centra en el análisis de sentimientos de un libro llamado "24 horas en la vida de una mujer". Aquí están los puntos clave:
+1. **Preparación del área de trabajo**:
+   - Se importaron las librerías necesarias, como `nltk`, `sklearn`, y `keras`.
+   - Se carga el documento.
+   - Se descargaron recursos léxicos, como stopwords y lematización.
+
+2. **Limpieza y tokenización de texto**:
+   - Se leyó y limpió el texto del archivo "24 horas en la vida de una mujer.txt".
+   - Se eliminaron caracteres especiales y espacios extra.
+   - Se realizó la tokenización del texto.
+
+3. **Análisis de sentimientos**:
+   - Se etiquetaron palabras o frases en categorías de sentimiento positivo o negativo.
+   - Se utilizó la matriz TF-IDF para vectorizar el texto.
+   - Se construyó un modelo de red neuronal secuencial para clasificación binaria.
+   - Se entrenó y evaluó el modelo.
+
+4. **Resultados**:
+   - Se obtuvo una precisión del modelo en los datos de prueba.
+   - Se mostró la matriz de confusión y la curva ROC.
