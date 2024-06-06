@@ -34,12 +34,14 @@
 **Relevancia del Proyecto**
   El proyecto específico de clasificar los sentimientos en el libro "24 horas en la vida de una mujer.txt" se enmarca dentro de esta evolución tecnológica. Utilizar técnicas avanzadas de NLP y machine learning para analizar un texto literario permitirá no solo la identificación de sentimientos a nivel de palabras y frases, sino también la comprensión de los matices emocionales y psicológicos presentes en la obra.
 Este enfoque no solo contribuirá al campo del análisis literario, sino que también podrá ser una referencia para el desarrollo de herramientas similares en otros contextos, demostrando la versatilidad y potencia de las tecnologías de procesamiento de lenguaje natural en la clasificación de sentimientos.
-Descripción del problema abordado
+
+**Descripción del problema abordado**
   Abordamos el problema de la clasificación de sentimientos basada en texto. El objetivo es procesar un texto, en este caso, el libro "24 horas en la vida de una mujer.txt", y clasificar las palabras o frases en categorías de sentimiento positivo o negativo.
 En primera instancia realizamos el proyecto de Clasificación de Sentimientos con Bosque Aleatorio,  utilizando un conjunto de datos textual, específicamente el libro "24 horas en la vida de una mujer", para entrenar un modelo de aprendizaje automático capaz de clasificar palabras según su connotación sentimental. El algoritmo empleado es el Bosque Aleatorio.
- Objetivo del Proyecto
+ *Objetivo del Proyecto*
 El objetivo es desarrollar un clasificador que pueda identificar y categorizar palabras en dos clases de sentimientos: positivos y negativos. Esto es útil para diversas aplicaciones, como el análisis de sentimientos en textos literarios o redes sociales.
-Metodologías
+
+**Metodologías**
 En el presente informe se aplicaron dos tipos de algoritmo de aprendizaje automático:
 Modelo clasificador de Bosque Aleatorio (Random Forest) 
 Combina múltiples modelos para mejorar el rendimiento y la precisión de la predicción.
@@ -73,7 +75,7 @@ El clasificador logró una precisión del 100%
 
 
 
-Conclusiones
+*Conclusiones*
 El proyecto demuestra la viabilidad de usar algoritmos de aprendizaje automático, como el Random Forest, para la clasificación de sentimientos en palabras individuales. La precisión obtenida indica que el modelo es capaz de distinguir entre palabras positivas y negativas con un grado razonable de exactitud. Sin embargo, la limitación principal es que el diccionario de etiquetas es muy básico y puede ser mejorado para aumentar la precisión del modelo.
 
 MODELO DE RED NEURONAL CON CAPAS DENSA
@@ -133,9 +135,10 @@ Construcción del Modelo de Red Neuronal: Se divide el conjunto de datos en entr
 Entrenamiento y Evaluación: Se entrena el modelo con los datos normalizados y se evalúa su precisión. Se muestra la matriz de confusión y la curva ROC para analizar el rendimiento del modelo.
 Ajuste de Hiperparámetros: Se ajustan hiperparámetros y se añade Dropout al modelo para mejorar su rendimiento. Se entrena nuevamente y se evalúa la precisión.
  
-Impacto en la solución propuesta
+**Impacto en la solución propuesta**
   En este caso, el procesamiento de habla se utiliza para preparar los datos de texto para su uso en un modelo de clasificación de sentimientos. Esto puede ayudar a comprender las intenciones de los clientes, extraer información valiosa de datos no estructurados, y mejorar el rendimiento general del modelo.
-Conclusiones
+
+**Conclusiones**
 La detección de emociones utilizando la inteligencia artificial es un campo en constante evolución que implica el uso de algoritmos y técnicas de aprendizaje automático para analizar y clasificar las emociones humanas. Mediante el uso de técnicas de procesamiento de lenguaje natural (NLP) que permiten identificar patrones lingüísticos y emociones subyacentes en textos y conversaciones. 
 
 Durante ese proceso, llevamos a cabo distintas fases: División del texto en palabras claves (tokens); la eliminación de palabras o términos que no aportan ningún valor; la lematización para evitar duplicados. Luego se cuenta la frecuencia de cada palabra en el texto creando un vector para cada palabra (donde cada elemento del vector representa la frecuencia de esa palabra en el texto) y luego  se vectoriza utilizando TF-IDF para convertir el texto en una representación numérica. Se define, a continuación, un modelo de red neuronal con capas densas utilizando la biblioteca Keras que compila los parámetros necesarios para su entrenamiento, como la función de pérdida, el optimizador y las métricas de evaluación.
