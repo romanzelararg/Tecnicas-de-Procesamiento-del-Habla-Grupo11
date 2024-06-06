@@ -110,9 +110,10 @@ En resumen, el código prepara un texto para su posterior análisis al limpiarlo
 MODELO ACTUALIZADO DE RED NEURONAL CON CAPAS DENSAS 
 En este modelo solo se realizó una modificación en la etapa de etiquetado de palabras para valorar el sentimiento. Para esto se utiliza la biblioteca VADER (Valence Aware Dictionary and sEntiment Reasoner). Es un modelo pre-entrenado que puede entender y evaluar el sentimiento de textos.
 Esto se hace para evaluar si es posible mejorar el modelo agregando un dataset más amplio de palabras con su etiquetado correspondiente.
+
 Se detallan los cambios realizados en la etapa de Análisis de Sentimiento, luego de realizar la etapa de lematización:
-En primer lugar se trae la herramienta de análisis de sentimiento VADERanalyzer = SentimentIntensityAnalyzer() 
-Se crea la Función: analizar_sentimiento(tokens) 
+-En primer lugar se trae la herramienta de análisis de sentimiento VADERanalyzer = SentimentIntensityAnalyzer().
+-Se crea la Función: analizar_sentimiento(tokens) .
 	Esta función es el corazón del código, ya que recibe tokens. Los tokens suelen ser palabras individuales, pero podrían ser frases cortas dependiendo de cómo se haya procesado el texto previamente. 
 Crea una lista vacía: etiquetas_sentimiento = [] donde se guardarán las etiquetas de sentimiento (positivo, negativo o neutral) para cada token. 
 Itera sobre los tokens: El bucle for token in tokens: recorre cada token de la lista uno por uno.
@@ -122,11 +123,16 @@ Itera sobre los tokens: El bucle for token in tokens: recorre cada token de la l
 	Si score['compound'] es mayor o igual a 0.05, se etiqueta el token como positivo (1).
 	Si score['compound'] es menor o igual a -0.05, se etiqueta el token como negativo (-1).
 	Si no se cumple ninguna de las anteriores, se etiqueta como neutral (0).
-Finalmente, la función devuelve la lista etiquetas sentimiento, que contiene una etiqueta de sentimiento para cada token de la lista original.
+ 
+-Finalmente, la función devuelve la lista etiquetas sentimiento, que contiene una etiqueta de sentimiento para cada token de la lista original.
 En resumen: Estas modificaciones al código toma un texto, lo divide en tokens (palabras o frases) y usa VADER para determinar si cada token tiene un sentimiento positivo, negativo o neutral. 
+
 Luego se continúa con la Construcción del Modelo de Red Neuronal similar al Modelo anterior.
+
 Para finalizar se entrena y evalúa la RN, obteniendo un Accuracy: 0.99, la cual es una mejora considerable. Aunque también se corre el riesgo de sobre entrenado, por lo cual sería considerable a futuro, tener otro tipo de métricas para evaluar la precisión, o realizar un ajuste más en detalle de los hiperparametros. 
-Resumen de las Metodologías y técnicas de procesamiento del Habla aplicadas
+
+**Resumen de las Metodologías y técnicas de procesamiento del Habla aplicadas**
+
 Preprocesamiento de texto: Se realiza una limpieza del texto eliminando caracteres especiales y espacios extra, y luego se tokeniza. Se calcula la cantidad de tokens únicos y se determina la fracción de stopwords en el corpus.
 Lematización: Se realiza la lematización de los tokens para llevarlos a su forma base o lema.
 Vectorización: Se filtran los tokens para crear etiquetas de sentimiento y se vectoriza el texto utilizando TF-IDF (Term Frequency-Inverse Document Frequency).
